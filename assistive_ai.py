@@ -209,7 +209,7 @@ class GlassSearchPanel(QWidget):
         search_layout = QHBoxLayout()
         
         self.search_input = QLineEdit()
-        self.search_input.setPlaceholderText("✨ Tanya AI Lokal (C:\\ai-lokal)...")
+        self.search_input.setPlaceholderText("Tanya kan keluhanmu di sini!")
         self.search_input.setFont(QFont("Poppins", 10))
         self.search_input.returnPressed.connect(self.ask_ai)
         self.search_input.setStyleSheet("""
